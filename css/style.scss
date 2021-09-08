@@ -1,0 +1,1457 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.my-container {
+    width: 90% !important;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 93%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.my-button-basics {
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Rubik';
+    padding: 13px 35px;
+    border-radius: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.button-color {
+    background: #e4584b;
+}
+.red-button{
+    border: none;
+    outline: none;
+    background-color: #e4584b;
+    color: white;
+    font-family: 'Rubik';
+    padding: 13px 35px;
+    border-radius: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.product-section-background {
+    background: #F9F9F9;
+}
+
+.container-navbar {
+    width: 68%;
+    margin: 0 auto;
+}
+
+.lafka-navbar {
+    padding-top: 15px;
+
+    .my-navbar-header {
+        position: relative;
+        width: 100%;
+        background-color: black;
+
+
+
+        nav {
+
+            .my-navbar {
+
+                li {
+
+                    .my-dropdown-menu {
+                        display: none;
+                        background-color: white;
+                        position: absolute;
+                        top: 60px;
+                        z-index: 999;
+                        border-radius: 3px;
+
+                        .sub-dropdown-menu {
+                            display: none;
+                            left: 225px;
+                            top: 0px;
+                            position: absolute;
+                            background-color: white;
+
+                        }
+
+                        ul {
+                            li {
+                                width: 225px;
+                                border-bottom: 1px solid #f1f1f1;
+
+                                a {
+                                    font-size: 13px !important;
+                                    font-weight: 400 !important;
+                                    line-height: 24px !important;
+                                    color: #666;
+                                    margin: 0;
+                                    display: block;
+                                    height: 100%;
+                                    padding: 10px;
+                                    transition: all 0.4s;
+                                    font-family: 'Rubik', sans-serif;
+                                }
+
+                                a:hover {
+                                    background-color: black;
+                                    color: white;
+                                }
+                            }
+
+                            li:last-child {
+                                border: none;
+                            }
+                        }
+                    }
+
+                    a {
+                        height: 60px;
+                        line-height: 60px;
+                        padding: 0px 10px;
+                        display: inline-block;
+                        font-family: 'Rubik', sans-serif;
+                        color: white;
+                        font-size: 13px;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-weight: 500;
+                        text-transform: uppercase;
+
+                        i {
+                            font-weight: 600;
+                            font-size: 11px;
+                        }
+                    }
+
+
+
+
+                }
+
+                li:hover {
+                    .my-dropdown-menu {
+                        display: block;
+
+                        li:hover {
+                            .sub-dropdown-menu {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .logo {
+            background: #FCCC4C;
+            width: 200px;
+            position: absolute;
+            top: -13%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding-top: 15px;
+
+            img {
+                width: 55%;
+                margin: auto;
+
+            }
+
+        }
+
+        .logo::before {
+            content: '';
+            width: 220px;
+            position: absolute;
+            top: 0px;
+            left: -10px;
+            border-bottom: 8px solid #00000052;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            z-index: -1;
+        }
+
+        .logo::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 42px solid #FCCC4C;
+            position: absolute;
+            bottom: -42px;
+            left: 0;
+
+        }
+    }
+
+    .section-navbar {
+
+
+
+        .section-navbar-top {
+            padding: 35px 0;
+
+            .section-navbar-top-left {
+                background: white;
+                padding: 6px 20px;
+                border-radius: 42px;
+
+                span {
+                    font-size: 13px;
+                    font-family: 'Rubik';
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                a {
+                    color: #4b4b4b;
+                    font-size: 17px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+
+                }
+            }
+
+            .section-navbar-top-right {
+                background: white;
+                padding: 6px 20px;
+                border-radius: 40px;
+
+                li {
+
+                    text-align: center;
+
+                    a {
+                        color: black;
+
+                        display: inline-block;
+                        width: 36px;
+                        height: 36px;
+                        line-height: 36px;
+                        font-size: 18px;
+
+                        i {
+                            font-weight: 500;
+                        }
+                    }
+
+
+                }
+
+                li:hover {
+                    background: #F6B737;
+                    border-radius: 40px;
+                }
+            }
+        }
+
+        .section-navbar-bottom {
+            .container-navbar {
+                width: 74%
+            }
+
+            background: #FCCC4C;
+            border-radius: 12px;
+
+            z-index: 9;
+
+            ul {
+                width: 100%;
+
+                li {
+                    a {
+                        color: #61443e;
+                        font-size: 15px;
+                        font-weight: 600;
+                        font-style: normal;
+                        display: inline-block;
+                        height: 64px;
+                        line-height: 68px;
+                        padding: 0 16px;
+                        text-transform: uppercase;
+                        transition: all 0.3s;
+
+                        i {
+                            font-size: 28px;
+                            color: #ac8320;
+                            transition: all 0.3s;
+                        }
+
+                        span {
+
+                            color: white;
+                            position: absolute;
+                            top: -9px;
+                            left: 55px;
+                            line-height: 24px;
+
+                            font-size: 11px;
+                            font-weight: 600;
+                            font-style: normal;
+                            width: 60px;
+
+                            text-align: center;
+                            border-radius: 4px;
+                            transform: rotate(345deg);
+                            font-family: 'Rubik';
+                            transition: all 0.4s;
+                        }
+
+
+                    }
+
+                    a:hover {
+                        color: #22272d;
+
+                        i {
+                            color: #22272d;
+                        }
+
+                        span {
+                            top: -14px;
+                        }
+
+
+                    }
+
+                    .pizza-item {
+                        background-color: #e4584b;
+                    }
+
+                    .sandwiches-item {
+                        background-color: #f77c32;
+                        left: 113px;
+                    }
+
+                    .combos-item {
+                        background-color: #afc93e;
+                        left: 105px;
+                        width: 40px;
+                    }
+
+                    .section-navbar-dropdown {
+                        background-color: white;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        max-height: 0;
+                        overflow: hidden;
+                        -webkit-transition: all 0.5s;
+                        transition: all 0.5s;
+                        border-radius: 5px;
+
+                        ul {
+                            padding: 25px 20px 40px;
+
+                            li {
+                                display: inline-block;
+                                padding: 0 10px;
+
+                                a {
+                                    height: 100%;
+                                    padding: 0;
+
+                                    img {
+                                        width: 100%;
+                                    }
+
+                                    h3 {
+                                        font-size: 16px;
+                                        text-align: center;
+                                        margin-top: 20px;
+                                        font-family: Rubik;
+                                        color: #22272d;
+
+                                        font-weight: 700;
+
+                                    }
+                                }
+
+                            }
+
+                            .about-menu {
+                                padding-left: 15px;
+
+                                h4 {
+                                    a {
+                                        line-height: 0;
+                                        margin-bottom: 15px;
+                                        font-size: 14px;
+                                    }
+                                }
+
+                                p {
+                                    color: #888888;
+                                    font-size: 12.5px;
+                                    padding: 10px 0;
+
+                                }
+
+                                button {
+                                    font-size: 13px;
+                                    color: #ffffff;
+                                    padding: 11px 20px;
+                                    margin: 15px 0;
+                                }
+                            }
+
+                        }
+
+                        .section-dropdown-menu-ul {
+                            li {
+                                a {
+                                    margin: 10px 0;
+                                }
+                            }
+
+                            li:first-child {
+                                i {
+                                    transform: rotate(360deg);
+                                }
+                            }
+
+                        }
+                    }
+
+                    .section-navbar-dropdown__2 {
+                        background-color: white;
+                        position: absolute;
+                        left: 0;
+
+                        transition: all 0.4s;
+                        visibility: hidden;
+                        opacity: 0;
+                        padding: 35px 45px;
+                        border-radius: 5px;
+
+
+                    }
+
+                    .section-dropdown-menu-ul {
+                        padding: 0 !important;
+
+                        li {
+                            width: 210px;
+                            padding: 0 !important;
+
+                            a {
+
+                                padding: 7px 0;
+                                color: #666666;
+                                text-decoration: none;
+                                width: 100%;
+                                font-size: 14px;
+                                line-height: 0;
+                                height: 40px;
+                                font-weight: normal;
+                                text-transform: capitalize;
+
+                                i {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                li:nth-child(5) {
+                    .section-navbar-dropdown {
+                        left: 36%;
+                    }
+
+                }
+
+                li:hover {
+                    .section-navbar-dropdown {
+                        max-height: 500px;
+                    }
+
+                    .section-navbar-dropdown__2 {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+
+                li:first-child {
+                    i {
+                        transform: rotate(275deg)
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@import url('http://fonts.cdnfonts.com/css/tiza');
+
+.carousel-section {
+    background: #F6B737;
+    background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/rays-dust.png?id=3724);
+
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+
+    .carousel {
+        top: -58px;
+        height: 562px;
+
+        .carousel-indicators [data-bs-target] {
+            text-indent: 0px;
+            background: transparent;
+
+            span {
+
+                color: white;
+
+                font-size: 20px;
+                font-family: 'Rubik';
+            }
+
+
+        }
+
+        .carousel-inner {
+            height: 500px;
+
+            .quick-order {
+
+                h2 {
+                    font-size: 64px;
+                    color: #4d2c21;
+                    line-height: 1;
+                    text-align: center;
+                    font-family: 'Rubik';
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-bottom: 10px
+                }
+
+                h1 {
+                    font-size: 84px;
+                    color: #ffffff;
+                    line-height: 1;
+                    text-align: center;
+                    font-family: 'Rubik';
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-bottom: 10px
+                }
+
+                p {
+                    color: #95601c;
+                    text-transform: capitalize;
+                    font-weight: 700;
+                    margin-bottom: 38px;
+                    font-size: 19px;
+                }
+
+                button {
+                    border: none;
+                    outline: none;
+                    background-color: #e4584b;
+                    color: white;
+                    font-family: 'Rubik';
+                    padding: 13px 35px;
+                    border-radius: 39px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                }
+            }
+
+
+
+        }
+    }
+
+}
+
+.product-section {
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    padding-top: 100px;
+
+    .products-header {
+
+        h1,
+        h3,
+        p {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 700;
+        }
+
+        h3 {
+            color: #e4584b;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #22272d;
+            font-size: 44px;
+
+            font-style: normal;
+        }
+
+        p {
+            color: #999999;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 20px;
+            font-size: 19px;
+            padding: 10px 53px;
+            line-height: 30px;
+
+        }
+    }
+
+    .products-card {
+        padding-top: 50px;
+
+        .card {
+            background: none;
+
+            .card-image {
+                overflow: hidden;
+                border: 1px solid rgba(0, 0, 0, 0.158);
+
+                img {
+                    transition: all 0.7s;
+                    width: 100%;
+                }
+            }
+
+            .card-image:hover {
+                cursor: pointer;
+
+                img {
+
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .card:hover {
+            background: white;
+        }
+
+
+
+        .icon::before {
+            font-family: "Font Awesome 5 Pro";
+            font-weight: 400;
+            content: "\f004";
+            position: absolute;
+            bottom: 45%;
+            right: 24px;
+            font-size: 22px;
+            transition: all 0.3s;
+        }
+
+        .icon:hover::before {
+            color: #e4584b;
+
+        }
+
+        h5 {
+
+            font-size: 17px;
+            font-weight: 500;
+            font-family: 'Rubik', sans-serif;
+            margin-bottom: 5px;
+        }
+
+        p {
+            text-align: center;
+            margin: 0 0 10px;
+            line-height: 1.625em;
+            color: #666;
+        }
+
+        .product-button {
+            background: white;
+            color: black;
+            border-radius: 34px;
+            font-size: 12px;
+            text-transform: uppercase;
+            height: 30px;
+            border: 1px solid #00000040;
+            margin: 25px 0;
+            transition: all 0.4s;
+        }
+
+        .product-button:hover {
+            border: 1px solid #000000;
+            color: #e4584b;
+        }
+
+        .price {
+            color: #feda5e;
+            background-color: #4d2c21;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-family: 'Rubik';
+            font-weight: 700;
+
+
+        }
+
+        .stars {
+            position: absolute;
+            top: 17px;
+            right: 10px;
+
+            i {
+                color: #feda5e;
+                margin: 0 -2px;
+            }
+        }
+    }
+
+    button {
+        background: #22272D;
+        margin-top: 40px;
+        margin-bottom: 72px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.sections-header {
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 70px;
+
+    h1 {
+        font-size: 44px;
+        font-weight: 700;
+        font-family: 'Rubik';
+        text-align: center;
+
+        span {
+            color: #e4584b;
+        }
+    }
+}
+
+.choose-side {
+
+    padding-top: 100px;
+    background: #3c2117;
+    background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/concrete-wall.png?id=3689);
+    padding-bottom: 70px;
+
+    .sides-box {
+        background: #0000001c;
+        background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/rays-dust.png?id=3724);
+        background-position: center;
+        background-size: cover;
+        padding: 40px 40px;
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 20px;
+            color: #e4584b;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin: 13px 0;
+            font-family: 'Tiza', sans-serif;
+        }
+
+        span {
+            font-size: 21px;
+            color: #ffffff;
+            line-height: 1;
+            text-align: center;
+            font-weight: 700;
+            font-family: 'Rubik';
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+    }
+
+    .vs {
+        background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/04/vintage-burst2-light.png?id=3186);
+        font-family: 'Tiza';
+        color: #F6B737;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* text-align: center; */
+        /* vertical-align: middle; */
+        font-size: 56px;
+        font-weight: 800;
+
+    }
+
+    h6 {
+        font-family: 'Rubik';
+        color: #957f62;
+
+        font-size: 19px;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    span {
+        color: #e4584b;
+    }
+}
+
+
+.about-section {
+    background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/back-chefs-title.jpg) !important;
+    background-attachment: fixed;
+    height: 100vh;
+
+    .about-title {
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: 'Rubik';
+        padding-top: 227px;
+
+        h1 {
+            font-size: 64px;
+            font-weight: 700;
+            padding: 15px 0;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+
+}
+
+.our-story {
+    padding: 105px 0;
+
+    .our-story-header {
+        text-align: center;
+        font-family: 'Rubik';
+
+        h1 {
+            color: #22272d;
+            font-size: 30px;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        p {
+            color: #888;
+
+            padding: 40px 40px 65px 40px;
+
+        }
+    }
+
+    .our-story-carousel {
+        padding: 50px 0;
+        text-align: center;
+
+        .our-story-header {
+            padding-bottom: 65px;
+            padding-top: 45px;
+
+            h1 {
+                font-size: 44px;
+            }
+        }
+
+        .my-accordion-properties {
+            padding: 10px 20px !important;
+            border-radius: 20px !important;
+            width: 80px !important;
+            height: 40px;
+            background-color: #e8e8e8 !important;
+            font-family: 'Rubik';
+            font-weight: 500;
+        }
+
+        .my-accordion-properties:hover {
+            background-color: #e4584b !important;
+            color: white !important;
+
+        }
+
+        .accordion-button::after {
+            content: none;
+        }
+
+        .accordion-item {
+            border: none;
+            padding: 0 35px;
+            outline: none;
+
+            h2 {
+                position: relative;
+            }
+
+            h2::after {
+                content: '';
+                border-bottom: 2px dashed #00000042;
+                position: absolute;
+                top: 17px;
+                right: -64px;
+                width: 57px;
+                height: 3px;
+
+            }
+
+        }
+
+        .accordion-item:last-child {
+            h2::after {
+                content: none;
+            }
+        }
+
+        .accordion-collapse {
+            position: absolute;
+            top: 77px;
+            width: 100%;
+            left: 0;
+
+        }
+
+        .accordion-body {
+            color: #888;
+            padding: 10px;
+            padding-bottom: 110px;
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: white !important;
+            background-color: red !important;
+        }
+
+    }
+}
+
+.signature {
+    background: #22272D;
+    padding: 60px 0;
+    color: white;
+    font-family: 'Rubik';
+    margin-top: 70px;
+
+    h1 {
+
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        padding: 10px 74px;
+    }
+
+    p {
+        text-align: center;
+        color: #888;
+        padding: 20px 0;
+    }
+}
+
+.contact-section {
+    position: relative;
+
+    iframe {
+        width: 100%;
+        height: 800px;
+        z-index: -1;
+    }
+
+    .lafka-navbar {
+        position: absolute;
+        width: 100%;
+
+    }
+}
+
+.contact {
+    padding: 100px 0;
+
+    .form-header {
+        padding: 20px 0;
+
+        h4,
+        h5 {
+            color: #22272d;
+            font-size: 24px;
+            font-weight: 600;
+            font-style: normal;
+            margin-bottom: 25px;
+        }
+
+
+        span {
+            color: #888;
+            line-height: 1.625em;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span {
+        font-family: 'Rubik';
+
+    }
+
+    .my-form {
+        padding-right: 80px;
+
+        .form-body {
+            border: 1px solid #88888817;
+            padding: 15px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+
+            .form-items {
+                margin-bottom: 15px;
+
+                span {
+
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    opacity: 0.8;
+                    font-weight: 700;
+                    color: #333;
+                }
+
+                input {
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    background: #F7F7F7;
+                    height: 36px;
+                    border-radius: 4px;
+                    margin-top: 8px;
+                }
+
+                textarea {
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    background: #F7F7F7;
+
+                    border-radius: 4px;
+                    margin-top: 8px;
+                }
+
+            }
+
+            .human {
+                input {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            button {
+                font-size: 13px;
+                color: #fff;
+                padding: 11px 20px;
+                text-decoration: none;
+                background-color: #e4584b;
+                transition: all 0.3s;
+                letter-spacing: 1px;
+                font-weight: 600;
+                border: none;
+                outline: none;
+                border-radius: 43px;
+                margin-top: 30px;
+            }
+
+            button:hover {
+                background: #333;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .contact-about {
+
+        padding-left: 35px;
+
+
+        .contact-about-items {
+            background-color: #FAFAFA;
+            margin: 20px 0;
+            padding: 30px 0 30px 25px;
+            border-radius: 7px;
+            border: 1px solid #88888817;
+
+            h5 {
+                font-size: 17px;
+                font-weight: 600;
+                margin-bottom: 14px;
+            }
+
+            span {
+                color: #333333a1;
+                font-size: 15px;
+            }
+        }
+    }
+
+}
+
+.services-section {
+    padding: 120px 0;
+
+    ul {
+        li {
+            i {
+                color: #a78151 !important;
+                font-size: 5em !important;
+                font-style: normal;
+                line-height: 1 !important;
+            }
+
+            h6 {
+                color: #22272d;
+                font-size: 19px;
+                font-weight: 500;
+                font-style: normal;
+                font-family: Rubik;
+                line-height: 1.625em;
+            }
+
+            span {
+                text-align: center;
+                color: #888888;
+
+
+            }
+        }
+    }
+}
+.subscribe-section{
+    background: #fccc4c url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/concrete-wall.png?id=3689);
+    padding: 80px 0;
+    .subscribe-input{
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        border-radius: 40px;
+        height: 58px;
+    form {
+        display:flex;
+        flex-direction:row;
+        
+        padding: 3px 2px;
+        text-align: center;
+         height: 100%;
+         border-radius: 40px;
+      
+      input {      
+        flex-grow:2;
+        border:none;
+        border-radius: 40px;
+        padding-left: 17px;
+        font-size: 14px;
+      }
+      
+      input:focus {
+       
+        outline: none;
+      }
+       button{
+        padding: 10px 23px !important;
+        letter-spacing: 1px;
+       }
+}
+}
+h2{
+    color: #5a3e26;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Rubik";
+    margin-bottom: 7px;
+}
+span{
+    color: #95601c;
+}
+}
+
+/*  Menus' page*/
+ .pizza{
+   background-image: url('https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2021/06/pizza-category-hero-title.jpg') !important;
+  
+
+ }
+
+
+
+footer {
+
+    background: #2A2A2A;
+
+    ul {
+
+        li {
+            height: 35px;
+            line-height: 35px;
+
+            a {
+                font-size: 14px;
+                color: white;
+                transition: all 0.3s;
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+
+        }
+
+        li:hover {
+            cursor: pointer;
+
+            a {
+                color: white;
+            }
+
+        }
+
+    }
+
+    .footer-top {
+        padding: 85px 0;
+
+        h2 {
+            font-size: 21px;
+            font-weight: 800;
+
+            padding: 0;
+            margin-bottom: 40px;
+            position: relative;
+            color: white;
+        }
+
+        h2::before {
+            content: '';
+            width: 50px;
+            border-bottom: 3px solid #e4584b;
+            position: absolute;
+            bottom: -10px;
+
+        }
+
+        li:hover {
+
+            a {
+                padding-left: 5px;
+            }
+
+
+        }
+
+
+        .getin-touch {
+            li {
+                a {
+                    color: #ffffff9e;
+
+                    i {
+
+                        font-size: 20px;
+                        line-height: 15px;
+                        margin-right: 10px;
+                    }
+                }
+
+            }
+
+            li:hover {
+                a {
+                    color: #ffffff9e;
+                    padding: 0;
+                }
+            }
+        }
+
+        .payment-cards {
+            ul {
+                li {
+
+                    background-image: url(https://lafka.althemist.com/fastfood/wp-content/themes/lafka/image/cards.png);
+                    background-size: auto;
+                    background-repeat: no-repeat;
+                    background-position: initial;
+                }
+
+            }
+
+        }
+    }
+
+    .footer-bottom {
+        background-color: #222222;
+        padding: 25px 0;
+
+        span {
+            color: #b6b6b6;
+            font-size: 11px;
+            font-family: 'Rubik';
+
+            a {
+                color: #e4584b;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .overflow {
+
+        overflow-x: hidden;
+
+    }
+
+    .section-navbar-top {
+        display: none;
+    }
+
+    .section-navbar-bottom {
+        display: none;
+    }
+
+    .my-container {
+        width: 100% !important;
+    }
+
+    nav {
+        .my-navbar {
+            display: none;
+        }
+    }
+
+    .carousel-section {
+        height: 100vh;
+
+    }
+
+    .carousel {
+        top: 108px;
+        height: 600px;
+    }
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
+
+
+    .overflow {
+
+        overflow-x: hidden;
+
+    }
+
+    .section-navbar-top {
+        display: none !important;
+    }
+
+    .section-navbar-bottom {
+        display: none !important;
+    }
+
+    .my-container {
+        width: 100% !important;
+    }
+
+    nav {
+        .my-navbar {
+            display: none;
+        }
+    }
+
+    .carousel-section {
+        height: 100vh;
+
+
+
+        .carousel {
+            top: 108px;
+            height: 600px;
+        }
+    }
+
+    .our-story-carousel {
+        .accordion-item {
+            padding: 0 !important;
+
+            h2::after {
+                content: none !important;
+
+            }
+        }
+    }
+}
+
+@keyframes lazypage {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 40%;
+    }
+
+    50% {
+        height: 50%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}

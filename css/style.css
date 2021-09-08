@@ -1,0 +1,1298 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/tiza");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.my-container {
+  width: 90% !important;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 93%;
+}
+
+.my-button-basics {
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Rubik';
+  padding: 13px 35px;
+  border-radius: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.button-color {
+  background: #e4584b;
+}
+
+.red-button {
+  border: none;
+  outline: none;
+  background-color: #e4584b;
+  color: white;
+  font-family: 'Rubik';
+  padding: 13px 35px;
+  border-radius: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.product-section-background {
+  background: #F9F9F9;
+}
+
+.container-navbar {
+  width: 68%;
+  margin: 0 auto;
+}
+
+.lafka-navbar {
+  padding-top: 15px;
+}
+
+.lafka-navbar .my-navbar-header {
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li .my-dropdown-menu {
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  z-index: 999;
+  border-radius: 3px;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li .my-dropdown-menu .sub-dropdown-menu {
+  display: none;
+  left: 225px;
+  top: 0px;
+  position: absolute;
+  background-color: white;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li .my-dropdown-menu ul li {
+  width: 225px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li .my-dropdown-menu ul li a {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  color: #666;
+  margin: 0;
+  display: block;
+  height: 100%;
+  padding: 10px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-family: 'Rubik', sans-serif;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li .my-dropdown-menu ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li .my-dropdown-menu ul li:last-child {
+  border: none;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li a {
+  height: 60px;
+  line-height: 60px;
+  padding: 0px 10px;
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li a i {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li:hover .my-dropdown-menu {
+  display: block;
+}
+
+.lafka-navbar .my-navbar-header nav .my-navbar li:hover .my-dropdown-menu li:hover .sub-dropdown-menu {
+  display: block;
+}
+
+.lafka-navbar .my-navbar-header .logo {
+  background: #FCCC4C;
+  width: 200px;
+  position: absolute;
+  top: -13%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.lafka-navbar .my-navbar-header .logo img {
+  width: 55%;
+  margin: auto;
+}
+
+.lafka-navbar .my-navbar-header .logo::before {
+  content: '';
+  width: 220px;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  border-bottom: 8px solid #00000052;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  z-index: -1;
+}
+
+.lafka-navbar .my-navbar-header .logo::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 42px solid #FCCC4C;
+  position: absolute;
+  bottom: -42px;
+  left: 0;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top {
+  padding: 35px 0;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-left {
+  background: white;
+  padding: 6px 20px;
+  border-radius: 42px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-left span {
+  font-size: 13px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-left a {
+  color: #4b4b4b;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-right {
+  background: white;
+  padding: 6px 20px;
+  border-radius: 40px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-right li {
+  text-align: center;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-right li a {
+  color: black;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 18px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-right li a i {
+  font-weight: 500;
+}
+
+.lafka-navbar .section-navbar .section-navbar-top .section-navbar-top-right li:hover {
+  background: #F6B737;
+  border-radius: 40px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom {
+  background: #FCCC4C;
+  border-radius: 12px;
+  z-index: 9;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom .container-navbar {
+  width: 74%;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul {
+  width: 100%;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li a {
+  color: #61443e;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  display: inline-block;
+  height: 64px;
+  line-height: 68px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li a i {
+  font-size: 28px;
+  color: #ac8320;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li a span {
+  color: white;
+  position: absolute;
+  top: -9px;
+  left: 55px;
+  line-height: 24px;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  width: 60px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-transform: rotate(345deg);
+          transform: rotate(345deg);
+  font-family: 'Rubik';
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li a:hover {
+  color: #22272d;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li a:hover i {
+  color: #22272d;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li a:hover span {
+  top: -14px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .pizza-item {
+  background-color: #e4584b;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .sandwiches-item {
+  background-color: #f77c32;
+  left: 113px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .combos-item {
+  background-color: #afc93e;
+  left: 105px;
+  width: 40px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul {
+  padding: 25px 20px 40px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul li a {
+  height: 100%;
+  padding: 0;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul li a img {
+  width: 100%;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul li a h3 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Rubik;
+  color: #22272d;
+  font-weight: 700;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul .about-menu {
+  padding-left: 15px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul .about-menu h4 a {
+  line-height: 0;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul .about-menu p {
+  color: #888888;
+  font-size: 12.5px;
+  padding: 10px 0;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown ul .about-menu button {
+  font-size: 13px;
+  color: #ffffff;
+  padding: 11px 20px;
+  margin: 15px 0;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown .section-dropdown-menu-ul li a {
+  margin: 10px 0;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown .section-dropdown-menu-ul li:first-child i {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-navbar-dropdown__2 {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+  padding: 35px 45px;
+  border-radius: 5px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-dropdown-menu-ul {
+  padding: 0 !important;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-dropdown-menu-ul li {
+  width: 210px;
+  padding: 0 !important;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-dropdown-menu-ul li a {
+  padding: 7px 0;
+  color: #666666;
+  text-decoration: none;
+  width: 100%;
+  font-size: 14px;
+  line-height: 0;
+  height: 40px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li .section-dropdown-menu-ul li a i {
+  font-size: 20px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li:nth-child(5) .section-navbar-dropdown {
+  left: 36%;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li:hover .section-navbar-dropdown {
+  max-height: 500px;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li:hover .section-navbar-dropdown__2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lafka-navbar .section-navbar .section-navbar-bottom ul li:first-child i {
+  -webkit-transform: rotate(275deg);
+          transform: rotate(275deg);
+}
+
+.carousel-section {
+  background: #F6B737;
+  background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/rays-dust.png?id=3724);
+  background-position: inherit;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-section .carousel {
+  top: -58px;
+  height: 562px;
+}
+
+.carousel-section .carousel .carousel-indicators [data-bs-target] {
+  text-indent: 0px;
+  background: transparent;
+}
+
+.carousel-section .carousel .carousel-indicators [data-bs-target] span {
+  color: white;
+  font-size: 20px;
+  font-family: 'Rubik';
+}
+
+.carousel-section .carousel .carousel-inner {
+  height: 500px;
+}
+
+.carousel-section .carousel .carousel-inner .quick-order h2 {
+  font-size: 64px;
+  color: #4d2c21;
+  line-height: 1;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.carousel-section .carousel .carousel-inner .quick-order h1 {
+  font-size: 84px;
+  color: #ffffff;
+  line-height: 1;
+  text-align: center;
+  font-family: 'Rubik';
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.carousel-section .carousel .carousel-inner .quick-order p {
+  color: #95601c;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 38px;
+  font-size: 19px;
+}
+
+.carousel-section .carousel .carousel-inner .quick-order button {
+  border: none;
+  outline: none;
+  background-color: #e4584b;
+  color: white;
+  font-family: 'Rubik';
+  padding: 13px 35px;
+  border-radius: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.product-section {
+  padding-top: 100px;
+}
+
+.product-section .products-header h1,
+.product-section .products-header h3,
+.product-section .products-header p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
+.product-section .products-header h3 {
+  color: #e4584b;
+  margin-bottom: 10px;
+}
+
+.product-section .products-header h1 {
+  color: #22272d;
+  font-size: 44px;
+  font-style: normal;
+}
+
+.product-section .products-header p {
+  color: #999999;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 19px;
+  padding: 10px 53px;
+  line-height: 30px;
+}
+
+.product-section .products-card {
+  padding-top: 50px;
+}
+
+.product-section .products-card .card {
+  background: none;
+}
+
+.product-section .products-card .card .card-image {
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.product-section .products-card .card .card-image img {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  width: 100%;
+}
+
+.product-section .products-card .card .card-image:hover {
+  cursor: pointer;
+}
+
+.product-section .products-card .card .card-image:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.product-section .products-card .card:hover {
+  background: white;
+}
+
+.product-section .products-card .icon::before {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  content: "\f004";
+  position: absolute;
+  bottom: 45%;
+  right: 24px;
+  font-size: 22px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.product-section .products-card .icon:hover::before {
+  color: #e4584b;
+}
+
+.product-section .products-card h5 {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 5px;
+}
+
+.product-section .products-card p {
+  text-align: center;
+  margin: 0 0 10px;
+  line-height: 1.625em;
+  color: #666;
+}
+
+.product-section .products-card .product-button {
+  background: white;
+  color: black;
+  border-radius: 34px;
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 30px;
+  border: 1px solid #00000040;
+  margin: 25px 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.product-section .products-card .product-button:hover {
+  border: 1px solid #000000;
+  color: #e4584b;
+}
+
+.product-section .products-card .price {
+  color: #feda5e;
+  background-color: #4d2c21;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: 'Rubik';
+  font-weight: 700;
+}
+
+.product-section .products-card .stars {
+  position: absolute;
+  top: 17px;
+  right: 10px;
+}
+
+.product-section .products-card .stars i {
+  color: #feda5e;
+  margin: 0 -2px;
+}
+
+.product-section button {
+  background: #22272D;
+  margin-top: 40px;
+  margin-bottom: 72px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sections-header {
+  padding-top: 10px;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.sections-header h1 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: 'Rubik';
+  text-align: center;
+}
+
+.sections-header h1 span {
+  color: #e4584b;
+}
+
+.choose-side {
+  padding-top: 100px;
+  background: #3c2117;
+  background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/concrete-wall.png?id=3689);
+  padding-bottom: 70px;
+}
+
+.choose-side .sides-box {
+  background: #0000001c;
+  background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/rays-dust.png?id=3724);
+  background-position: center;
+  background-size: cover;
+  padding: 40px 40px;
+}
+
+.choose-side .sides-box img {
+  width: 100%;
+}
+
+.choose-side .sides-box h1 {
+  font-size: 20px;
+  color: #e4584b;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 13px 0;
+  font-family: 'Tiza', sans-serif;
+}
+
+.choose-side .sides-box span {
+  font-size: 21px;
+  color: #ffffff;
+  line-height: 1;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Rubik';
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.choose-side .vs {
+  background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/04/vintage-burst2-light.png?id=3186);
+  font-family: 'Tiza';
+  color: #F6B737;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  font-size: 56px;
+  font-weight: 800;
+}
+
+.choose-side h6 {
+  font-family: 'Rubik';
+  color: #957f62;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.choose-side span {
+  color: #e4584b;
+}
+
+.about-section {
+  background-image: url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/back-chefs-title.jpg) !important;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.about-section .about-title {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  padding-top: 227px;
+}
+
+.about-section .about-title h1 {
+  font-size: 64px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+.about-section .about-title span {
+  font-size: 12px;
+}
+
+.our-story {
+  padding: 105px 0;
+}
+
+.our-story .our-story-header {
+  text-align: center;
+  font-family: 'Rubik';
+}
+
+.our-story .our-story-header h1 {
+  color: #22272d;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.our-story .our-story-header p {
+  color: #888;
+  padding: 40px 40px 65px 40px;
+}
+
+.our-story .our-story-carousel {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.our-story .our-story-carousel .our-story-header {
+  padding-bottom: 65px;
+  padding-top: 45px;
+}
+
+.our-story .our-story-carousel .our-story-header h1 {
+  font-size: 44px;
+}
+
+.our-story .our-story-carousel .my-accordion-properties {
+  padding: 10px 20px !important;
+  border-radius: 20px !important;
+  width: 80px !important;
+  height: 40px;
+  background-color: #e8e8e8 !important;
+  font-family: 'Rubik';
+  font-weight: 500;
+}
+
+.our-story .our-story-carousel .my-accordion-properties:hover {
+  background-color: #e4584b !important;
+  color: white !important;
+}
+
+.our-story .our-story-carousel .accordion-button::after {
+  content: none;
+}
+
+.our-story .our-story-carousel .accordion-item {
+  border: none;
+  padding: 0 35px;
+  outline: none;
+}
+
+.our-story .our-story-carousel .accordion-item h2 {
+  position: relative;
+}
+
+.our-story .our-story-carousel .accordion-item h2::after {
+  content: '';
+  border-bottom: 2px dashed #00000042;
+  position: absolute;
+  top: 17px;
+  right: -64px;
+  width: 57px;
+  height: 3px;
+}
+
+.our-story .our-story-carousel .accordion-item:last-child h2::after {
+  content: none;
+}
+
+.our-story .our-story-carousel .accordion-collapse {
+  position: absolute;
+  top: 77px;
+  width: 100%;
+  left: 0;
+}
+
+.our-story .our-story-carousel .accordion-body {
+  color: #888;
+  padding: 10px;
+  padding-bottom: 110px;
+}
+
+.our-story .our-story-carousel .accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: red !important;
+}
+
+.signature {
+  background: #22272D;
+  padding: 60px 0;
+  color: white;
+  font-family: 'Rubik';
+  margin-top: 70px;
+}
+
+.signature h1 {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  padding: 10px 74px;
+}
+
+.signature p {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+}
+
+.contact-section {
+  position: relative;
+}
+
+.contact-section iframe {
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.contact-section .lafka-navbar {
+  position: absolute;
+  width: 100%;
+}
+
+.contact {
+  padding: 100px 0;
+}
+
+.contact .form-header {
+  padding: 20px 0;
+}
+
+.contact .form-header h4,
+.contact .form-header h5 {
+  color: #22272d;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 25px;
+}
+
+.contact .form-header span {
+  color: #888;
+  line-height: 1.625em;
+}
+
+.contact h1,
+.contact h2,
+.contact h3,
+.contact h4,
+.contact h5,
+.contact h6,
+.contact p,
+.contact span {
+  font-family: 'Rubik';
+}
+
+.contact .my-form {
+  padding-right: 80px;
+}
+
+.contact .my-form .form-body {
+  border: 1px solid #88888817;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.contact .my-form .form-body .form-items {
+  margin-bottom: 15px;
+}
+
+.contact .my-form .form-body .form-items span {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-weight: 700;
+  color: #333;
+}
+
+.contact .my-form .form-body .form-items input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #F7F7F7;
+  height: 36px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.contact .my-form .form-body .form-items textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #F7F7F7;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.contact .my-form .form-body .human input {
+  width: 30px;
+  height: 30px;
+}
+
+.contact .my-form .form-body button {
+  font-size: 13px;
+  color: #fff;
+  padding: 11px 20px;
+  text-decoration: none;
+  background-color: #e4584b;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 43px;
+  margin-top: 30px;
+}
+
+.contact .my-form .form-body button:hover {
+  background: #333;
+  cursor: pointer;
+}
+
+.contact .contact-about {
+  padding-left: 35px;
+}
+
+.contact .contact-about .contact-about-items {
+  background-color: #FAFAFA;
+  margin: 20px 0;
+  padding: 30px 0 30px 25px;
+  border-radius: 7px;
+  border: 1px solid #88888817;
+}
+
+.contact .contact-about .contact-about-items h5 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.contact .contact-about .contact-about-items span {
+  color: #333333a1;
+  font-size: 15px;
+}
+
+.services-section {
+  padding: 120px 0;
+}
+
+.services-section ul li i {
+  color: #a78151 !important;
+  font-size: 5em !important;
+  font-style: normal;
+  line-height: 1 !important;
+}
+
+.services-section ul li h6 {
+  color: #22272d;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Rubik;
+  line-height: 1.625em;
+}
+
+.services-section ul li span {
+  text-align: center;
+  color: #888888;
+}
+
+.subscribe-section {
+  background: #fccc4c url(https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2019/05/concrete-wall.png?id=3689);
+  padding: 80px 0;
+}
+
+.subscribe-section .subscribe-input {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  border-radius: 40px;
+  height: 58px;
+}
+
+.subscribe-section .subscribe-input form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 3px 2px;
+  text-align: center;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.subscribe-section .subscribe-input form input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: none;
+  border-radius: 40px;
+  padding-left: 17px;
+  font-size: 14px;
+}
+
+.subscribe-section .subscribe-input form input:focus {
+  outline: none;
+}
+
+.subscribe-section .subscribe-input form button {
+  padding: 10px 23px !important;
+  letter-spacing: 1px;
+}
+
+.subscribe-section h2 {
+  color: #5a3e26;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Rubik";
+  margin-bottom: 7px;
+}
+
+.subscribe-section span {
+  color: #95601c;
+}
+
+/*  Menus' page*/
+.pizza {
+  background-image: url("https://lafka.althemist.com/fastfood/wp-content/uploads/sites/2/2021/06/pizza-category-hero-title.jpg") !important;
+}
+
+footer {
+  background: #2A2A2A;
+}
+
+footer ul li {
+  height: 35px;
+  line-height: 35px;
+}
+
+footer ul li a {
+  font-size: 14px;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer ul li a i {
+  margin-right: 10px;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+}
+
+footer ul li:hover a {
+  color: white;
+}
+
+footer .footer-top {
+  padding: 85px 0;
+}
+
+footer .footer-top h2 {
+  font-size: 21px;
+  font-weight: 800;
+  padding: 0;
+  margin-bottom: 40px;
+  position: relative;
+  color: white;
+}
+
+footer .footer-top h2::before {
+  content: '';
+  width: 50px;
+  border-bottom: 3px solid #e4584b;
+  position: absolute;
+  bottom: -10px;
+}
+
+footer .footer-top li:hover a {
+  padding-left: 5px;
+}
+
+footer .footer-top .getin-touch li a {
+  color: #ffffff9e;
+}
+
+footer .footer-top .getin-touch li a i {
+  font-size: 20px;
+  line-height: 15px;
+  margin-right: 10px;
+}
+
+footer .footer-top .getin-touch li:hover a {
+  color: #ffffff9e;
+  padding: 0;
+}
+
+footer .footer-top .payment-cards ul li {
+  background-image: url(https://lafka.althemist.com/fastfood/wp-content/themes/lafka/image/cards.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: initial;
+}
+
+footer .footer-bottom {
+  background-color: #222222;
+  padding: 25px 0;
+}
+
+footer .footer-bottom span {
+  color: #b6b6b6;
+  font-size: 11px;
+  font-family: 'Rubik';
+}
+
+footer .footer-bottom span a {
+  color: #e4584b;
+}
+
+footer .footer-bottom span a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .overflow {
+    overflow-x: hidden;
+  }
+  .section-navbar-top {
+    display: none;
+  }
+  .section-navbar-bottom {
+    display: none;
+  }
+  .my-container {
+    width: 100% !important;
+  }
+  nav .my-navbar {
+    display: none;
+  }
+  .carousel-section {
+    height: 100vh;
+  }
+  .carousel {
+    top: 108px;
+    height: 600px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .overflow {
+    overflow-x: hidden;
+  }
+  .section-navbar-top {
+    display: none !important;
+  }
+  .section-navbar-bottom {
+    display: none !important;
+  }
+  .my-container {
+    width: 100% !important;
+  }
+  nav .my-navbar {
+    display: none;
+  }
+  .carousel-section {
+    height: 100vh;
+  }
+  .carousel-section .carousel {
+    top: 108px;
+    height: 600px;
+  }
+  .our-story-carousel .accordion-item {
+    padding: 0 !important;
+  }
+  .our-story-carousel .accordion-item h2::after {
+    content: none !important;
+  }
+}
+
+@-webkit-keyframes lazypage {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 40%;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes lazypage {
+  0% {
+    height: 0%;
+  }
+  25% {
+    height: 40%;
+  }
+  50% {
+    height: 50%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
